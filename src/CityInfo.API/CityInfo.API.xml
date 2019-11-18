@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CityInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:CityInfo.API.Controllers.CitiesController.GetCities">
+            <summary>
+            Get cities kl
+            </summary>
+            <returns>Cities with Id, Name and Description</returns>
+        </member>
+        <member name="T:CityInfo.API.Models.CityDto">
+            <summary>
+            A city with Id, Name, Description, NumberOfPointsOfInterest and 
+            PointsOfInterest
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Id">
+            <summary>
+            The Id of the city
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Name">
+            <summary>
+            The Name of the City
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Description">
+            <summary>
+            The description of the city
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.NumberOfPointsOfInterest">
+            <summary>
+            The number of points of interest for city
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.PointsOfInterest">
+            <summary>
+            Point of inteset for city
+            </summary>
+        </member>
+        <member name="T:CityInfo.API.Models.PointOfInterestForCreationDto">
+            <summary>
+            Point of interest with name and description.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.PointOfInterestForCreationDto.Name">
+            <summary>
+            The point of interest name.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.PointOfInterestForCreationDto.Description">
+            <summary>
+            The point of interest description.
+            </summary>
+        </member>
+    </members>
+</doc>
